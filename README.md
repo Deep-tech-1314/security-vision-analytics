@@ -1,14 +1,13 @@
-# 🛡️ SentinelEye: Advanced Security Vision & Analytics
+# 🛡️ Security Analytics System
 
 [![Python Version](https://img.shields.io/badge/python-3.8+-blue.svg?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org)
 [![OpenCV](https://img.shields.io/badge/OpenCV-4.x-green.svg?style=for-the-badge&logo=opencv&logoColor=white)](https://opencv.org)
 [![Tkinter](https://img.shields.io/badge/GUI-Tkinter-orange.svg?style=for-the-badge)](https://docs.python.org/3/library/tkinter.html)
-[![License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=for-the-badge)](LICENSE)
 
 An advanced real-time computer vision security system featuring high-performance target tracking, real-time facial anonymization, micro-expression analysis, and session analytics. Built with **Python**, **OpenCV**, and **Tkinter**.
 
 <p align="center">
-  <img src="assets/sentineleye_ui.png" alt="SentinelEye Interface" width="100%">
+  <img src="assets/security_analytics_ui.png" alt="Security Analytics System Interface" width="100%">
 </p>
 
 ---
@@ -21,7 +20,7 @@ An advanced real-time computer vision security system featuring high-performance
 * 🛡️ **On-the-fly Anonymization:** Instant face pixelation privacy mode to mask subjects' identities in compliance with privacy regulations.
 * 🚨 **Proximity Threshold Warnings:** Intelligent scale monitoring that triggers screen-border alerts and red visual overrides when a subject gets too close.
 * 🎭 **Micro-Expression Analysis:** Real-time smile and emotion tracking utilizing Haar cascade classifiers.
-* 📊 **Dark Mode Analytics:** Beautiful post-session analysis using dark-themed **Matplotlib** tracking graphs.
+* 📊 **Session Analytics:** Beautiful post-session analysis using dark-themed **Matplotlib** tracking graphs.
 
 ---
 
@@ -37,10 +36,6 @@ It also features a *Grace Frame* buffer to keep old boxes alive briefly if a det
 
 ### 3. Session Analytics
 When you exit the session, the accumulated detection history is visualized in a beautifully designed dark-mode area chart mapping targets acquired against active session time.
-
-<p align="center">
-  <img src="assets/sentineleye_charts.png" alt="Post-Session Analytics" width="100%">
-</p>
 
 ---
 
