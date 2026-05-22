@@ -7,7 +7,7 @@
 An advanced real-time computer vision security system featuring high-performance target tracking, real-time facial anonymization, micro-expression analysis, and session analytics. Built with **Python**, **OpenCV**, and **Tkinter**.
 
 <p align="center">
-  <img src="assets/security_analytics_ui.png" alt="Security Analytics System Interface" width="100%">
+  <img src="security_analytics_ui.png" alt="Security Analytics System Interface" width="100%">
 </p>
 
 ---
